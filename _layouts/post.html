@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     {% include head.html %}
+
+    </head>
+
+    <body>
+
+      {% include navigation.html %}
+
+        <!--################ WRAP START ################-->
+
+        <div id="wrap">
+
+            <!--################ HEADER START ################-->
+
+            <header class="page-title">
+                <div class="container">
+                    <h2>Blog</h2>
+                </div>
+            </header>
+          <section class="single-blog">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="span8">
+
+
+                            <div class="post-image">
+				    <img src="{{ site.url }}/resources/images/{{ page.featured_image }}" alt="">
+                                <div class="blog-date">
+                                    <h2 class="big-h2-heading"><i class="icon-calendar"></i>{{ page.date | date: "%d"}}<br>{{ page.date | date: "%B"}}</h2>
+
+                                </div>
+                            </div>
+                            <div class="blog-post-title">
+                                <h3>{{ page.title }}</h3>
+                            </div>
+
+
+
+
+                            <div class="single-blog-meta">
+                                <p class="author">By <a href="{{ page.author_link }}">{{ page.author }}</a></p>
+
+                                <!-- <p class="icon-comment"> 13</p>
+
+                                <div class="socials">
+                                    <a href="#" class="social-network sn2 stumbleupon"></a>
+                                    <a href="#" class="social-network sn2 facebook"></a>
+                                    <a href="#" class="social-network sn2 pinterest"></a>
+                                    <a href="#" class="social-network sn2 twitter"></a>
+                                </div> -->
+                            </div>
+
+                            <div class="post-content">
+
+                                {{ content}}
+                            </div>
+                        </div>
+                        {% include sidebar.html %}
+                    </div>
+                </div>
+            </section>
+            {% include footer.html %}
+
+            {% include java_includes.html %}
+
+        </div> 
+    </body>
+</html>
