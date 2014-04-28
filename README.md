@@ -34,3 +34,4 @@ When you're done, commit the code and push it to the repo.  There's no need to b
 ##Changes from the Previous Method##
 
 This is a change from the previous methods we used. Now each sitew ill have its own repository
+.
