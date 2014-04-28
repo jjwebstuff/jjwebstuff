@@ -30,3 +30,7 @@ You can launch a test Jekyll server by executing the below command in the root o
 	jekyll serve
 	
 When you're done, commit the code and push it to the repo.  There's no need to build the jekyll site ( *jekyll build*) before you commit it because the commit hook will build it for you.
+
+##Changes from the Previous Method##
+
+This is a change from the previous methods we used. Now each sitew ill have its own repository
