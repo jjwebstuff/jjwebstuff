@@ -17,8 +17,8 @@
         <!-- Font Awesome -->
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="css/style-responsive.css" rel="stylesheet" type="text/css" />
+        <link href="http://www.jjwebstuff.com/resources/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="http://www.jjwebstuff.com/resources/css/style-responsive.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -32,17 +32,17 @@
                         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                             <i class="fa fa-caret-down fa-2x"></i>
                         </button>
-                        <a class="brand" href="index.html">  <img src="images/logo.png" width="150" id="logokhan"></a>
+                        <a class="brand" href="http://www.jjwebstuff.com/index.html">  <img src="http://www.jjwebstuff.com/resources/images/logo.png" width="150" id="logokhan"></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right">
-                                <li><a href="features.html">What We Do</a></li>
-                                <li><a href="portfolio.html">Our Projects</a></li>
+                                <li><a href="http://www.jjwebstuff.com/features.html">What We Do</a></li>
+                                <li><a href="http://www.jjwebstuff.com/portfolio.html">Our Projects</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Specifics <b class="caret"></b></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="http://www.jjwebstuff.com/services.html">Services</a></li>
+                                        <li><a href="http://www.jjwebstuff.com/team.html">Our Team</a></li>
+                                        <li><a href="http://www.jjwebstuff.com/pricing.html">Pricing</a></li>
                                     </ul>
                                 </li>
                                 <li class="active"><a href="#">Contact Us</a></li>
@@ -71,7 +71,7 @@
                         
                         <h2 class="big-h2-heading company-color-text"><i class="fa fa-envelope"></i> Contact Us</h2>
                         <p class="company-color-text">Call, email, tweet, FB drop us a line any way you want and we'll get back with you to get started on your project today!</p>
-                        <form class="form-main" method="POST" name="contactform" action="php/contact-form-submission.php">
+                        <form class="form-main" method="POST" name="contactform" action="http://www.jjwebstuff.com/resources/php/contact-form-submission.php">
 
                             <fieldset>
                                 <div class="clearfix">
@@ -144,10 +144,10 @@
                     <div class="span2 offset3">
                         <h2 class="footer-h2">links </h2>
                         <ul class="unstyled footer-links">
-                            <li><a href="team.html" class="flink">The Team</a></li>
-                            <li><a href="blog.html" class="flink">Blog</a></li>
+                            <li><a href="http://www.jjwebstuff.com/team.html" class="flink">The Team</a></li>
+                            <li><a href="http://www.jjwebstuff.com/blog.html" class="flink">Blog</a></li>
 
-                            <li><a href="contact.php" class="flink">Contact</a></li>
+                            <li><a href="http://www.jjwebstuff.com/contact.php" class="flink">Contact</a></li>
                         </ul>
                     </div>
 
@@ -184,21 +184,21 @@
         <!--################ JAVASCRIPTS ################-->
 
        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="js/jquery.js"></script>
-        <script src="js/modernizr.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/jquery.fitvids.js"></script>
-        <script src="js/jquery.easing.1.3.js"></script>
-        <script src="js/twitter.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/jquery.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/modernizr.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/bootstrap.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/jquery.fitvids.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/jquery.easing.1.3.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/twitter.js"></script>
 
-        <script src="js/stellar.js"></script>
-        <script src="js/nicescroll.min.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.2"></script>
-        <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.0"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/stellar.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/nicescroll.min.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="http://www.jjwebstuff.com/resources/js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="http://www.jjwebstuff.com/resources/js/jquery.fancybox-thumbs.js?v=1.0.2"></script>
+        <script type="text/javascript" src="http://www.jjwebstuff.com/resources/js/jquery.fancybox-media.js?v=1.0.0"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/custom.js"></script>
+        <script src="http://www.jjwebstuff.com/resources/js/jquery.flexslider.js"></script>
 
     </body>
 </html>
