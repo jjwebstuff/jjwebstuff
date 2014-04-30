@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-     {% include head.html %}
-    </head>
-
+    {% include head.html %}
     <body>
         {% include navigation.html %}
-        
-        <!--################ WRAP START ################-->
-
-        <div id="wrap">
-
-            <!--################ HEADER START ################-->
-
-            <header class="page-title">
-                <div class="container">
-                    <input type="text" class="input-large search-query pull-right margintop10" placeholder="Search">
-                    <h2>Blog</h2>
-
-                </div>
-            </header>
-
-            <section class="blog">
-                <div class="container">
+        <section class="blog">
+            <div class="container">
                 {{ content }}
-                </div>
-            </section>   
-            {% include footer.html %}
-            {% include java_includes.html %}        
-        </div>
+            </div>
+        </section>   
+        {% include footer.html %}
+        {% include java_includes.html %}        
     </body>
 </html>

@@ -2365,7 +2365,7 @@ a,a:hover {
 }
 /*features page*/
 .feature-page {
-    /* padding:30px 0 30px; */
+    padding-bottom: 20px;
     background:#FFF;
     color:#8E959C;
     border-bottom:1px solid #DDD;
@@ -2499,7 +2499,7 @@ a,a:hover {
 /*pricing page end*/
 /*single post Page*/
 .single-blog {
-    padding:10px 0 0;
+    padding: 77px 0 0;
     background:#FFF;
     color:#8E959C;
     border-bottom:1px solid #DDD;
@@ -2740,7 +2740,7 @@ a,a:hover {
 }
 
 .portfolio {
-    padding:80px 0 60px;
+    padding: 124px 0 20px;
     background:#FFF;
     color:#8E959C;
     border-bottom:1px solid #DDD;
@@ -2911,7 +2911,8 @@ a,a:hover {
 
 /*blog*/
 .blog {
-    padding:10px 0;
+    padding-top: 72px;
+    padding-bottom: 20px;
     background:#FFF;
     color:#8E959C;
     border-bottom:1px solid #DDD;
@@ -3386,20 +3387,21 @@ h2.team-member-name{
     color: #029BE8;
 }
 .feature-page.top-of-page{
-    padding-top: 70px;
+    padding-top: 72px;
+    /* padding-bottom: 20px; */
 }
 .portfolio.top-of-page{
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 .pricing-page.top-of-page{
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 72px;
+    padding-bottom: 20px;
 }
 .contact-page.top-of-page{
     padding-top: 43px;
 }
 .services-page.top-of-page{
-    padding-top: 45px;
+    padding-top: 42px;
 }
 .footer-h2{
     font-size: 25px;
