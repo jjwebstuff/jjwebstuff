@@ -35,7 +35,7 @@ textile_ext:            textile
 
 host:                   0.0.0.0
 baseurl:                /
-url:                    http://localhost:4000
+url:                    www.jjwebstuff.com 
 
 
 kramdown:

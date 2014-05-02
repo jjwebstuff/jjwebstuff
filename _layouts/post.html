@@ -3,42 +3,45 @@
     {% include head.html %}
     <body>
         {% include navigation.html %}
-        <section class="single-blog">
-            <div class="container">
-                <div class="row">
-                    <div class="span8">
-                        <div class="post-image">
-                            <img src="{{ site.url }}/resources/images/{{ page.featured_image }}" alt="">
-                            <div class="blog-date">
-                                <h2 class="big-h2-heading">
-                                    <i class="fa fa-calendar"></i>{{ page.date | date: "%d"}}<br>{{ page.date | date: "%B"}}
-                                </h2>
+        <div id="wrap">   
+            <section class="single-blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="span8">
+                            <div class="post-image">
+                                <img src="{{ site.url }}/resources/images/{{ page.featured_image }}" alt="">
+                                <div class="blog-date">
+                                    <h2 class="big-h2-heading">
+                                        <i class="fa fa-calendar"></i>{{ page.date | date: "%d"}}<br>{{ page.date | date: "%B"}}
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="blog-post-title">
+                                <h3>{{ page.title }}</h3>
+                            </div>
+                            <div class="single-blog-meta">
+                                <p class="author">By <a href="{{ page.author-link }}">{{ page.author }}</a></p>
+
+                                <!-- <p class="icon-comment"> 13</p>
+
+                                <div class="socials">
+                                    <a href="#" class="social-network sn2 stumbleupon"></a>
+                                    <a href="#" class="social-network sn2 facebook"></a>
+                                    <a href="#" class="social-network sn2 pinterest"></a>
+                                    <a href="#" class="social-network sn2 twitter"></a>
+                                </div> -->
+                            </div>
+
+                            <div class="post-content">
+                                {{ content}}
                             </div>
                         </div>
-                        <div class="blog-post-title">
-                            <h3>{{ page.title }}</h3>
-                        </div>
-                        <div class="single-blog-meta">
-                            <p class="author">By <a href="{{ page.author-link }}">{{ page.author }}</a></p>
-
-                            <!-- <p class="icon-comment"> 13</p>
-
-                            <div class="socials">
-                                <a href="#" class="social-network sn2 stumbleupon"></a>
-                                <a href="#" class="social-network sn2 facebook"></a>
-                                <a href="#" class="social-network sn2 pinterest"></a>
-                                <a href="#" class="social-network sn2 twitter"></a>
-                            </div> -->
-                        </div>
-
-                        <div class="post-content">
-                            {{ content}}
-                        </div>
+                        {% include sidebar.html %}
                     </div>
-                    {% include sidebar.html %}
                 </div>
-            </div>
-        </section>
+            </section>
+            <div id="push"></div>
+         </div>
         {% include footer.html %}
         {% include java_includes.html %}
     </body>

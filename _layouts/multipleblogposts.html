@@ -3,11 +3,14 @@
     {% include head.html %}
     <body>
         {% include navigation.html %}
-        <section class="blog">
-            <div class="container">
-                {{ content }}
-            </div>
-        </section>   
+        <div id="wrap">    
+            <section class="blog">
+                <div class="container">
+                    {{ content }}
+                </div>
+            </section>
+            <div id="push"></div>
+        </div>
         {% include footer.html %}
         {% include java_includes.html %}        
     </body>

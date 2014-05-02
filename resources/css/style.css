@@ -20,7 +20,7 @@ html,body {
     height:100%;
     /* The html and body elements cannot have any padding or margin. */
     font-family:'Open Sans', sans-serif;
-    background-color:#f4f5f6;
+    /* background-color:#f4f5f6; */
     /* overflow: hidden; */
 }
 
@@ -28,16 +28,29 @@ html,body {
 /* Wrapper for page content to push down footer */
 #wrap {
     min-height:100%;
-    height:auto!important;
-    height:100%;
+     
+    height:auto !important; 
+     
+    height: 100%; 
     /* Negative indent footer by it's height */
-    margin:0 auto -60px;
-    color:#333;
+     
+    margin: 0 auto -250px; 
+    /*color:#333;*/
 }
 
 /* Set the fixed height of the footer here */
 #push {
-    height:60px;
+    height: 250px;
+}
+#footer {
+    height:250px;
+}
+#footer {
+    font-size:12px;
+    color: #888;
+    background: #3B3B3B;
+    /* padding-top: 200px; */
+    /* padding-bottom: 100px; */
 }
 
 /*Navbar Customizations*/
@@ -246,18 +259,6 @@ header {
     font-weight:300;
     background:#029BE8;
     border-radius:0;
-}
-
-footer {
-    font-size:12px;
-    color:#888;
-    display:block;
-    background:#3B3B3B;
-    padding-top: 15px;
-    padding-bottom: 45px;
-    position:relative;
-    width:100%;
-    /* height: 1000px; */
 }
 
 .copyright {
@@ -2347,7 +2348,7 @@ a,a:hover {
     padding:30px 0;
     background:#FFF;
     color:#8E959C;
-    border-bottom:1px solid #DDD;
+    /* border-bottom:1px solid #DDD; */
     border-top:1px solid #DDDCDC;
 }
 
@@ -2355,7 +2356,7 @@ a,a:hover {
     border-top:1px solid #FFFDFD;
     background:#F7F7F7;
     box-shadow:none;
-    border-bottom:1px solid #DDDCDC;
+    /* border-bottom:1px solid #DDDCDC; */
     padding-bottom: 50px;
 
 }
@@ -2366,7 +2367,7 @@ a,a:hover {
 /*features page*/
 .feature-page {
     padding-bottom: 20px;
-    background:#FFF;
+    background: #F7F7F7;
     color:#8E959C;
     border-bottom:1px solid #DDD;
     border-top:1px solid #DDDCDC;
@@ -2375,7 +2376,7 @@ a,a:hover {
 .feature-page.rev {
     border-top:1px solid #FFFDFD;
     border-bottom:0;
-    background:#F7F7F7;
+    background: #fff;
     box-shadow:none;
     border-bottom:1px solid #FFFDFD;
 
@@ -2446,9 +2447,9 @@ a,a:hover {
 .pricing-page.rev {
     border-top:1px solid #FFFDFD;
     border-bottom:0;
-    background:#F7F7F7;
+    background: #F7F7F7;
     box-shadow:none;
-    border-bottom:1px solid #FFFDFD;
+    /* border-bottom:1px solid #FFFDFD; */
 }
 
 .pricing-page .price-plan {
@@ -2502,7 +2503,7 @@ a,a:hover {
     padding: 77px 0 0;
     background:#FFF;
     color:#8E959C;
-    border-bottom:1px solid #DDD;
+    /* border-bottom:1px solid #DDD; */
     border-top:1px solid #DDDCDC;
 }
 
@@ -2604,11 +2605,15 @@ a,a:hover {
 }
 
 .single-blog .blog-date {
-    color:#fff;
+    color: #888;
     margin-right:10px;
     position:absolute;
     right:0;
     bottom:0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    background-color: #3B3B3C;
 }
 
 /*single post end*/
@@ -2740,11 +2745,11 @@ a,a:hover {
 }
 
 .portfolio {
-    padding: 124px 0 20px;
-    background:#FFF;
+    padding: 63px 0 20px;
+    background: #F7F7F7;
     color:#8E959C;
-    border-bottom:1px solid #DDD;
-    border-top:1px solid #DDDCDC;
+    /* border-bottom:1px solid #DDD; */
+    /* border-top:1px solid #DDDCDC; */
 }
 
 .portfolio.rev {
@@ -2915,7 +2920,7 @@ a,a:hover {
     padding-bottom: 20px;
     background:#FFF;
     color:#8E959C;
-    border-bottom:1px solid #DDD;
+    /* border-bottom:1px solid #DDD; */
     border-top:1px solid #DDDCDC;
 }
 
@@ -3412,3 +3417,19 @@ h2.team-member-name{
 .responsive-button{
     padding-bottom: 50px;
 }
+.index{
+    background-color: #3B3B3B;
+}
+.pricing{
+    background-color: #F7F7F7;
+}
+.team{
+    background-color: #fff;
+}
+.blog-date{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+

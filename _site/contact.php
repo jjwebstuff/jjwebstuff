@@ -24,7 +24,7 @@
 
     <body>
 <!--################ NAVIGATION START ################-->
-
+  
         <div class="navbar-wrapper" >
             <div class="navbar navbar-fixed-top" id="navigation">
                 <div class="navbar-inner">
@@ -55,7 +55,7 @@
 
 
         <!--################ NAVIGATION END ################-->
-
+      <div id="wrap"> 
         <section class="contact-page top-of-page rev">
 
             <div class="container">
@@ -130,7 +130,9 @@
             </div>
 
         </section>
-
+        <div id="push"></div>
+     </div>
+           
         <!--################ FOOTER START ################-->
 
         <footer id="footer">
