@@ -48,6 +48,6 @@ $email_content .= "Message:\n\n$message";
 mail ("jacobsiddall@gmail.com", "New Contact Message", $email_content);  
       
 // send the user back to the form  
-header("Location: ../contact.php?s=".urlencode("Thank you for your message, we'll be in touch soon!") . "#contact"); exit;  
+header("Location: ../../contact.php?s=".urlencode("Thank you for your message, we'll be in touch soon!") . "#contact"); exit;  
   
 ?> 
