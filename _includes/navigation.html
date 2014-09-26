@@ -28,7 +28,9 @@
                                 <li><a href="pricing.html">Pricing</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li{% if page.body_class == 'contact' %} class="active"{% endif %}>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
