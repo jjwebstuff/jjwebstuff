@@ -17,9 +17,9 @@ From a terminal command prompt:
 
 ##Modifying Jekyll Code##
 
-_includes   -- This directory houses HTML snippets that you can include in your primary layouts. You can use this to create headers, footers or navigation bars. Basically anything that repeats.
+_includes -- This directory houses HTML snippets that you can include in your primary layouts. You can use this to create headers, footers or navigation bars. Basically anything that repeats.
 
-_layouts    -- This is where you come up with basic templates for specific page types. 
+_layouts -- This is where you come up with basic templates for specific page types. 
 
 _posts -- This is where you can create actual posts. Make sure that your file is formatted as YYYY-MM-DD-name-of-the-post-no-spaces.
 
@@ -33,5 +33,4 @@ When you're done, commit the code and push it to the repo.  There's no need to b
 
 ##Changes from the Previous Method##
 
-This is a change from the previous methods we used. Now each sitew ill have its own repository
-.
+This is a change from the previous methods we used. Now each site will have its own repository.

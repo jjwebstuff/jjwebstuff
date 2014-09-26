@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
       <head>
         <meta charset="utf-8">
-        <title>Welcome to the JJ Webstuff Blog</title>
+        <title>JJ WebStuff Features</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Website Designers and Developers for hire, ready to work on any ideas ranging from simple to highly complex">
         <meta name="author" content="The JJ Web Team">
@@ -23,8 +23,9 @@
         <link href="resources/css/style-responsive.css" rel="stylesheet" type="text/css" />
 
     </head>
-    <body>
-        <!--################ NAVIGATION START ################-->
+    <body class="features">
+ 
+    	<!--################ NAVIGATION START ################-->
 <div class="navbar-wrapper" >
     <div class="navbar navbar-fixed-top" id="navigation">
         <div class="navbar-inner">
@@ -37,7 +38,7 @@
                 </a>
                 <div class="nav-collapse collapse">
                     <ul class="nav pull-right">
-                        <li>
+                        <li class="active">
                             <a href="features.html">What We Do</a>
                         </li>
                         <li>
@@ -62,55 +63,78 @@
     </div>
 </div>
 <!--################ NAVIGATION END ################-->
-        <div id="wrap">   
-            <section class="single-blog">
-                <div class="container">
-                    <div class="row">
-                        <div class="span8">
-                            <div class="post-image">
-                                <img src="/resources/images/sky1.jpg" alt="">
-                                <div class="blog-date">
-                                    <h2 class="big-h2-heading">
-                                        <i class="fa fa-calendar"></i>13<br>April
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="blog-post-title">
-                                <h3>Welcome to the JJ Webstuff Blog</h3>
-                            </div>
-                            <div class="single-blog-meta">
-                                <p class="author">By <a href="http://www.allthingsdork.com">Jeff</a></p>
+        <div id="wrap">        
+            <section class="contact-page top-of-page rev">
 
-                                <!-- <p class="icon-comment"> 13</p>
+    <div class="container">
+        <div class="row margintop20">
+            <div class="span6">
+               
+                <h2 class="big-h2-heading company-color-text"><i class="fa fa-envelope"></i> Contact Us</h2>
+                <p class="company-color-text">Call, email, tweet, FB drop us a line any way you want and we'll get back with you to get started on your project today!</p>
+                <form class="form-main" method="POST" name="contactform" action="http://getsimpleform.com/messages?form_api_token=41601a3b91f51b00074926c67985800a">
 
-                                <div class="socials">
-                                    <a href="#" class="social-network sn2 stumbleupon"></a>
-                                    <a href="#" class="social-network sn2 facebook"></a>
-                                    <a href="#" class="social-network sn2 pinterest"></a>
-                                    <a href="#" class="social-network sn2 twitter"></a>
-                                </div> -->
-                            </div>
-
-                            <div class="post-content">
-                                <p>Welcome and thanks for stopping by JJ Webstuff</p>
-
+                    <fieldset>
+                        <div class="clearfix">
+                            <label for="name"><span>Name:</span></label>
+                            <div class="input">
+                                <input  id="name" name="contact_name" type="text" value="" class="input-xlarge">
                             </div>
                         </div>
-                        
-<div class="span4">  
-    <div class="sidebar">
-        <div class="widget">
-            <h4>About</h4>
-            <p>JJ Web Stuff is your one stop shop for all your web related needs. If you’re a small or medium size business looking to cement your presence on the web, look no further. We’ll help you get your business on all the places that matter on the Internet. We will get you set up with a social media strategy and help you to avoid the pitfalls of the digital era.
-            </p>
+
+                        <div class="clearfix">
+                            <label for="email"><span>Email:</span></label>
+                            <div class="input">
+                                <input  id="email" name="contact_email" type="text" value="" class="input-xlarge" placeholder='YourEmail@email.com'>
+                            </div>
+                        </div>
+                        <div class="clearfix">
+                            <label for="phone"><span>Phone:</span></label>
+                            <div class="input">
+                                <input  id="phone" name="contact_phone" type="text" value="" class="input-xlarge" placeholder='(555) 555-5555'>
+                            </div>
+                        </div>
+
+                        <div class="clearfix">
+                            <label for="message"><span>Message:</span></label>
+                            <div class="input">
+                                <textarea class="input-xlarge" id="message" name="contact_message" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <input type="hidden" name="save" value="contact">
+                        <div class="actions">
+                            <button type="submit" class="btn btn-landing ">Submit Message</button>
+                        </div>
+                    </fieldset>
+
+                </form>
+            </div>
+            <div class="span5 offset1">
+                <h2 class="big-h2-heading company-color-text">Info</h2>
+                <i class="fa fa-phone"></i>  773 398 5154 <br>
+                <!-- <i class="fa fa-envelope"></i>  <a href="mailto:jacobsiddall@gmail.com">jacobsiddall@gmail.com</a> -->
+                <br />
+                <h2 class="big-h2-heading company-color-text">Social Media</h2>
+                <a href="#" class="social-network yelp"></a> 
+                <a href="#" class="social-network facebook"></a>
+                <a href="#" class="social-network twitter"></a>
+                <a href="#" class="social-network google"></a>
+                <a href="#" class="social-network linkedin"></a>
+                <br />
+                <h2 class="big-h2-heading company-color-text">Location</h2>
+                <div class="map">
+                    <!--<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?source=embed&amp;hl=en-US&amp;ie=UTF8&amp;ll=41.525287,-87.450485&amp;spn=0.099472,0.263844&amp;t=m&amp;z=13&amp;output=embed"></iframe>-->
+                    <iframe src="https://mapsengine.google.com/map/embed?mid=zqfTndKgI4JY.kKb3fdq7L9jU" width="100%" height="385"></iframe>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-                    </div>
-                </div>
-            </section>
+
+</section>
+
             <div id="push"></div>
-         </div>
+       	</div>
+
                <!--################ FOOTER START ################-->
 
         <div id="footer">
@@ -183,5 +207,6 @@
           ga('send', 'pageview');
 
         </script>
+       
     </body>
 </html>
